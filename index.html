@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026 1099 Tax Calculator – Official Form 1040-ES Terminal</title>
+  <meta name="description" content="Calculate your 2026 IRS self-employment tax (15.3% SECA), quarterly estimated payments, and net take-home on the official 1099TaxCalc.live terminal.">
+  <link rel="canonical" href="https://1099taxcalc.live/">
+
+  <meta property="og:title" content="2026 1099 Tax Calculator – Official Terminal">
+  <meta property="og:description" content="Official Form 1040-ES & 15.3% SECA tax terminal for contractors and freelancers.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://1099taxcalc.live/">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "1099 Tax Calculator Terminal",
+        "applicationCategory": "FinanceApplication",
+        "operatingSystem": "All",
+        "url": "https://1099taxcalc.live/",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body class="bg-zinc-950 text-zinc-100 min-h-screen flex flex-col items-center justify-between font-sans antialiased p-4 sm:p-8">
+
+  <!-- Header -->
+  <header class="w-full max-w-3xl flex items-center justify-between py-4 border-b border-zinc-800">
+    <div class="flex items-center space-x-3">
+      <span class="text-2xl font-black bg-gradient-to-r from-amber-400 to-orange-500 bg-clip-text text-transparent">1099TaxCalc</span>
+      <span class="text-xs uppercase tracking-widest px-2 py-0.5 rounded bg-amber-500/10 text-amber-400 border border-amber-500/20 font-semibold">2026 IRS Standard</span>
+    </div>
+    <a href="https://1099taxcalc.live/" class="text-sm font-semibold text-amber-400 hover:text-amber-300 transition">
+      Launch Terminal →
+    </a>
+  </header>
+
+  <!-- Main Bridge Funnel -->
+  <main class="w-full max-w-xl my-auto py-12 space-y-8 text-center">
+    
+    <div class="space-y-3">
+      <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-400 text-xs font-bold">
+        <span>●</span>
+        <span>2026 IRS Form 1040-ES & SECA 15.3% Engine</span>
+      </div>
+      <h1 class="text-3xl sm:text-5xl font-black tracking-tight text-white leading-tight">
+        1099 Self-Employment Tax Calculator
+      </h1>
+      <p class="text-zinc-400 text-sm sm:text-base max-w-md mx-auto">
+        Calculate your exact federal tax bracket, 15.3% SECA liability, safe-harbor quarterly payments, and 50-state deductions.
+      </p>
+    </div>
+
+    <!-- Jump Box (Takes user directly to 1099TaxCalc.live with their income) -->
+    <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 sm:p-8 shadow-2xl space-y-6 text-left">
+      <div>
+        <label class="block text-xs font-semibold uppercase tracking-wider text-zinc-400 mb-2">
+          Estimated 1099 Net Annual Profit ($)
+        </label>
+        <div class="relative">
+          <span class="absolute left-4 top-3.5 text-zinc-500 font-bold text-lg">$</span>
+          <input type="number" id="jumpIncome" value="85000" min="5000" step="5000" class="w-full bg-zinc-950 border border-zinc-700 rounded-xl py-3 pl-10 pr-4 text-white font-bold text-xl focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500 transition">
+        </div>
+      </div>
+
+      <!-- Action Button Redirecting Directly to 1099TaxCalc.live -->
+      <button onclick="goToTaxTerminal()" class="w-full flex items-center justify-center space-x-3 bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-400 hover:to-orange-500 text-zinc-950 font-black py-4 px-6 rounded-xl transition duration-200 shadow-xl shadow-amber-500/20 text-lg cursor-pointer">
+        <span>Calculate 2026 Taxes on 1099TaxCalc.live</span>
+        <span>→</span>
+      </button>
+
+      <div class="flex items-center justify-between text-xs text-zinc-500 pt-2 border-t border-zinc-800">
+        <span>✓ 50 US States Covered</span>
+        <span>✓ Schedule C Write-offs</span>
+        <span>✓ Safe Harbor Deadlines</span>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="w-full max-w-3xl border-t border-zinc-800 py-6 text-center text-xs text-zinc-600">
+    <p>Official Tax Terminal Hosted at <a href="https://1099taxcalc.live" class="text-amber-400 underline font-medium">1099TaxCalc.live</a> · All Rights Reserved</p>
+  </footer>
+
+  <script>
+    function goToTaxTerminal() {
+      const income = document.getElementById('jumpIncome').value || '85000';
+      window.location.href = 'https://1099taxcalc.live/?income=' + encodeURIComponent(income);
+    }
+    document.getElementById('jumpIncome').addEventListener('keypress', function(e) {
+      if (e.key === 'Enter') goToTaxTerminal();
+    });
+  </script>
+</body>
+</html>
