@@ -66,4 +66,9 @@ For 2026, the standard IRS business mileage rate allows contractors to deduct ve
 
 ---
 
-© 2026 [1099TaxCalc.live](https://1099taxcalc.live). All rights reserved. Commercial Web Utility.
+## 📍 Top 2026 State & Income Bracket Calculators
+
+* **State Tax Hubs**: [Texas (0% State Income Tax)](https://1099taxcalc.live/state/texas/) · [California](https://1099taxcalc.live/state/california/) · [Florida (0% Tax)](https://1099taxcalc.live/state/florida/) · [New York](https://1099taxcalc.live/state/new-york/) · [Washington](https://1099taxcalc.live/state/washington/)
+* **Income Brackets**: [$50,000](https://1099taxcalc.live/bracket/50000-income/) · [$100,000](https://1099taxcalc.live/bracket/100000-income/) · [$150,000](https://1099taxcalc.live/bracket/150000-income/) · [$200,000](https://1099taxcalc.live/bracket/200000-income/)
+
+© 2026 [1099TaxCalc.live](https://1099taxcalc.live/). All rights reserved. Commercial Web Utility.
