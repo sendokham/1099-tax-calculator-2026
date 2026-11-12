@@ -66,9 +66,10 @@ For 2026, the standard IRS business mileage rate allows contractors to deduct ve
 
 ---
 
-## 📍 Top 2026 State & Income Bracket Calculators
+## 📍 Top 2026 State, Guide & Income Bracket Calculators
 
-* **State Tax Hubs**: [Texas (0% State Income Tax)](https://1099taxcalc.live/state/texas/) · [California](https://1099taxcalc.live/state/california/) · [Florida (0% Tax)](https://1099taxcalc.live/state/florida/) · [New York](https://1099taxcalc.live/state/new-york/) · [Washington](https://1099taxcalc.live/state/washington/)
+* **State Business & 1099 Tax Hubs**: [Texas Business & 1099 Tax Calculator (0% State Tax)](https://1099taxcalc.live/state/texas/) · [California 1099 Tax (CA Form 540-ES)](https://1099taxcalc.live/state/california/) · [Florida (0% Tax)](https://1099taxcalc.live/state/florida/) · [New York](https://1099taxcalc.live/state/new-york/) · [Washington](https://1099taxcalc.live/state/washington/) · [All 50 States](https://1099taxcalc.live/state/)
+* **Essential IRS Contractor Guides**: [2026 Mileage Deduction ($0.67/mile)](https://1099taxcalc.live/guides/vehicle-mileage-tax-deduction-integration/) · [IRS Safe Harbor Tax Rules (100% / 110% / 90%)](https://1099taxcalc.live/guides/safe-harbor-rules-avoid-underpayment-penalty/) · [2026 IRS 1099 Write-Offs Checklist](https://1099taxcalc.live/guides/1099-write-offs-deductions-checklist/)
 * **Income Brackets**: [$50,000](https://1099taxcalc.live/bracket/50000-income/) · [$100,000](https://1099taxcalc.live/bracket/100000-income/) · [$150,000](https://1099taxcalc.live/bracket/150000-income/) · [$200,000](https://1099taxcalc.live/bracket/200000-income/)
 
 © 2026 [1099TaxCalc.live](https://1099taxcalc.live/). All rights reserved. Commercial Web Utility.
